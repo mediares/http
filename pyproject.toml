@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mediares.http"
+description = "A HTTP Library"
+readme = "README.md"
+requires-python = ">=3.10"
+dynamic = ["version"]
